@@ -14,7 +14,7 @@ public class Main {
             bufferedReader = new BufferedReader(new FileReader(filename));
 
             while ((line=bufferedReader.readLine()) != null) {
-System.out.println("tweet = " + line);
+System.out.println("tweet = " + linev);
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
