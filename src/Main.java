@@ -20,9 +20,9 @@ public class Main {
                 String[] words = line.split(" ");
                 for (String word : words) {
                     if (word.contains("#")) {
-                       word=word.replaceAll("^[^#]*", "");
-                       if (!hashtags.contains(word))
-                        hashtags.add(word);
+                        word = word.replaceAll("^[^#]*", "");
+                        if (!hashtags.contains(word))
+                            hashtags.add(word);
                     }
                 }
             }
